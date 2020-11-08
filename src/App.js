@@ -1,16 +1,12 @@
 import './index.css';
 import React from 'react';
 import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
-import Header from './components/Header';
 import Summary from './components/Summary';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
 import Wrapper from './components/Wrapper';
 import Portfolio from './components/Portfolio';
-
-
-
 
 
 function App() {
