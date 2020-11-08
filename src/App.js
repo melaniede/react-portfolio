@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
+import './index.css';
 import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Header from './components/Header';
@@ -21,7 +20,7 @@ function App() {
         <Navbar />
         <Wrapper>
           <Route exact path="/" component={Summary} />
-          {/* <Route exact path="/portfolio" component={Portfolio} /> */}
+          <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
         </Wrapper>
         <Footer />
