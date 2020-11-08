@@ -1,7 +1,6 @@
 import React from "react";
-import headshot from 'https://github.com/melaniede/react-portfolio/blob/main/src/assets/images/Melanie_Headshot2.png';
-
-// import "./style.css";
+import headshot from '../../assets/images/Melanie_Headshot2.png';
+import "./style.css";
 
 function Summary () {
     return (
