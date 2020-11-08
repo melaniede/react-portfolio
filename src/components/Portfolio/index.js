@@ -1,13 +1,11 @@
-import React from "react";
-// import workbytes from 'assets/images/Melanie_Headshot2.png';
-// import weworkout from 'assets/images/Melanie_Headshot2.png';
-// import notetaker from 'assets/images/Melanie_Headshot2.png';
-// import workday from 'assets/images/Melanie_Headshot2.png';
-// import password from 'assets/images/Melanie_Headshot2.png';
-// import jsquiz from 'assets/images/Melanie_Headshot2.png';
-
-
-// import "./style.css";
+import React from 'react';
+import workbytes from '../../assets/images/Work_Bytes.png';
+import weworkout from '../../assets/images/WeWorkout_App.png';
+import notetaker from '../../assets/images/Note_Taker_Home.png';
+import workday from '../../assets/images/Workday_Scheduler.png';
+import password from '../../assets/images/Password_Generator.png';
+import jsquiz from '../../assets/images/Javascript_Quiz.png';
+import './style.css';
 
 function Portfolio () {
     return (
