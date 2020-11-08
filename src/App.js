@@ -1,6 +1,6 @@
 import './index.css';
 import React from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
 import Header from './components/Header';
 import Summary from './components/Summary';
 import Footer from './components/Footer';
@@ -12,6 +12,7 @@ import Portfolio from './components/Portfolio';
 
 
 
+
 function App() {
   return (
     <Router>
@@ -19,9 +20,13 @@ function App() {
         {/* <Header /> */}
         <Navbar />
         <Wrapper>
-          <Route exact path="/" component={Summary} />
-          <Route exact path="/portfolio" component={Portfolio} />
-          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/">
+            <Redirect to="/react-portfolio"/>
+            </Route>
+          <Route exact path="/react-portfolio" component={Summary} />
+          <Route exact path="/react-portfolio/about" component={Summary} />
+          <Route exact path="/react-portfolio/portfolio" component={Portfolio} />
+          <Route exact path="/react-portfolio/contact" component={Contact} />
         </Wrapper>
         <Footer />
       </div>
